@@ -121,3 +121,8 @@ intellij 연동 : [https://ryudung.tistory.com/26](https://ryudung.tistory.com/2
 전체적인 테스트 실행수, TPS등 성능은 Webflux가 더 좋았지만,
 
 코드 수정량 대비 성능 향상, 내부결제 시 반영될 코드 까지 고려해서 우선은 ExecutorService를 사용하는 방향으로 결정.
+
+
+# 적용 결과
+
+![](/images/spring/webflux-executor-result.png)
