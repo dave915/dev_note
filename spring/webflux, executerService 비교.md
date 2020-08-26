@@ -32,6 +32,8 @@ public List<HotelInformation> getHotels(Request request) {
 1. webflux 적용
 2. 해당 api 요청 용 thread pool을 이용
 
+해당 이슈는 common thread pool의 thread 수를 변경하거나 2번에 해당하는 별도의 thread pool 분리로 간단히 해결 할 수 있지만 팀 내에서 webflux도 고려하고 있기때문에 webflux도 테스트 해달라는 요청이 있어서 webflux도 함께 고려하였습니다. 
+
 ## Test 진행
 
 **webflux 코드**
